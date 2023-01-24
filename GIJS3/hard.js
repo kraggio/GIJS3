@@ -8,7 +8,7 @@
 const patient2 = (function() {
     let pii = {
         name: 'John',
-        ssn: '123-45-6789'
+        _ssn: '123-45-6789'
     };
     return{
         getName: function() {
